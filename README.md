@@ -2,7 +2,7 @@
 Todas as informações uteis a respeito de SQL
 
 
-Alguns scripts para SQL: SELECT, FROM (Local), WHERE, AND, LIKE.
+Alguns scripts para SQL: SELECT, FROM (Local), WHERE, AND, LIKE, GROUP BY, HAVING(Count).
 
 Material de apoio. 
 
