@@ -1,6 +1,32 @@
 # AulasSQL
 Todas as informações uteis a respeito de SQL
 
+# A linguagem SQL é dividida em 4 tipos de intruções de linguagem. DML(DATA MANIPULATION LANGUAGE), DDL(DATA DEFINITION LANGUAGE), DCL(DATA CONTROL LANGAGE) e TLC(TRANSATION CONTROL LANGUAGE).
+
+COMANDOS DML: São utilizados para o gerenciamento de dados dentro de objetos do banco.
+SELECT - Recupera dados do banco de dados.
+INSERT - Inserir dados em uma tabela.
+UPDATE - Atualiza dados existentes em uma tabela
+DELETE - Exclui registros de uma tabela.
+
+COMANDOS DDL: São usadas para definir a estrutura de banco de dados ou esquema.
+CREATE - Para criar objetos no banco de dados, o proprio banco de dados, tabelas, indexes, procedures, views, functions e tiggers.
+ALTER - Altera a estrutura de dados. O proprio banco de dados, tabelas, indexes, procedures, views, functions e tiggers.
+DROP - Apaga o objeto no banco de dados. O proprio banco de dados, tabelas, indexes, procedures, views, functions e tiggers.
+TRUNCATE - Remove todos os registros de uma tabela, incluindo todos os espaços alocados para registros são removidos.
+
+COMANDOS DCL: São usados para definir acessos/controle de dados e objetos.
+GRANT - Atribui privilégios de acesso do usuário a objetos do banco de dados. 
+REVOKE - Remove os privilégios de acesso aos objetos obtidos com o comando GRANT
+DENY - Nega a permissão a um usuário ou grupo para realizar a operação em um objeto ou recurso.
+
+COMANDOS TLC: São usados para gerenciar as mudanças feitas por instruções DML. Ele permite que as declaraçõe a serem agrupadas em transações lógicas.
+BEGIN TRANSACTION - Inicia uma transação.
+COMMIT - Salva o trabalho feito.
+SAVE TRANSACTION - Identifica um ponto em uma transação para que mais tarde você possa efetuar um ROLLBACK.
+ROLLBACK - Restaura o banco de dados desde o último COMMIT.
+
+
 
 Alguns scripts para SQL: SELECT, FROM (Local), WHERE, AND, LIKE, GROUP BY, HAVING(Count).
 
