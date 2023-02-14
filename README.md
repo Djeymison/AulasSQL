@@ -1,7 +1,7 @@
 # AulasSQL
 Todas as informações uteis a respeito de SQL
 
-# A linguagem SQL é dividida em 4 tipos de intruções de linguagem. DML(DATA MANIPULATION LANGUAGE), DDL(DATA DEFINITION LANGUAGE), DCL(DATA CONTROL LANGAGE) e TLC(TRANSATION CONTROL LANGUAGE).
+A linguagem SQL é dividida em 4 tipos de intruções de linguagem. DML(DATA MANIPULATION LANGUAGE), DDL(DATA DEFINITION LANGUAGE), DCL(DATA CONTROL LANGAGE) e TLC(TRANSATION CONTROL LANGUAGE).
 
 COMANDOS DML: São utilizados para o gerenciamento de dados dentro de objetos do banco.
 SELECT - Recupera dados do banco de dados.
