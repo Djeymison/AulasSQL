@@ -26,6 +26,9 @@ COMMIT - Salva o trabalho feito.
 SAVE TRANSACTION - Identifica um ponto em uma transação para que mais tarde você possa efetuar um ROLLBACK.
 ROLLBACK - Restaura o banco de dados desde o último COMMIT.
 
+?O que é uma subconsulta em SQL?
+Uma subconsulta é uma consulta que está aninhada dentro de uma instrução SELECT , INSERT , UPDATE ou DELETE ou em outra subconsulta.
+
 
 
 Alguns scripts para SQL: SELECT, FROM (Local), WHERE, AND, LIKE, GROUP BY, HAVING(Count).
