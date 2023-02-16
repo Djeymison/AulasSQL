@@ -30,6 +30,9 @@ ROLLBACK - Restaura o banco de dados desde o último COMMIT.
 Uma subconsulta é uma consulta que está aninhada dentro de uma instrução SELECT , INSERT , UPDATE ou DELETE ou em outra subconsulta.
 
 
+OBS: Boa parte das querys que serão criadas viram com os seguintes funções: FROM, WHERE, SELECT, INSERT, UPDATE ou DELETE. Para navegar entre as colunas será usado (0). Exemplo: (Azul, 84, ....)
+
+
 
 Alguns scripts para SQL: SELECT, FROM (Local), WHERE, AND, LIKE, GROUP BY, HAVING(Count).
 
@@ -682,6 +685,8 @@ SELECT Rtrim('Removendo espaços.   ');
 
 
 -- CLASSIFICAÇÃO --
+
+Função usada para classificar os objetos na planilha.
 
 --RANK EXEMPLO 2 1
 /*As funções de classificação retornam um valor de classificação 
