@@ -32,6 +32,8 @@ Uma subconsulta é uma consulta que está aninhada dentro de uma instrução SEL
 
 OBS: Boa parte das querys que serão criadas viram com os seguintes funções: FROM, WHERE, SELECT, INSERT, UPDATE ou DELETE. Para navegar entre as colunas será usado (0). Exemplo: (Azul, 84, ....)
 
+DISTINCT: Apresenta resultados diferentes na planilha, eliminando objetos duplicados.
+
 
 
 Alguns scripts para SQL: SELECT, FROM (Local), WHERE, AND, LIKE, GROUP BY, HAVING(Count).
