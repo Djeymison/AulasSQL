@@ -1,6 +1,8 @@
 # AulasSQL
 Todas as informações uteis a respeito de SQL
 
+OBS1: Sobre SGBDs: Um Sistema de Gerenciamento de Banco de Dados (SGBD) – do inglês Data Base Management System (DBMS) – é o conjunto de programas de computador (softwares) responsáveis pelo gerenciamento de uma base de dados. Seu principal objetivo é retirar da aplicação cliente a responsabilidade de gerenciar o acesso, a manipulação e a organização dos dados. O SGBD disponibiliza uma interface para que seus clientes possam incluir, alterar ou consultar dados previamente armazenados. Em bancos de dados relacionais a interface é constituída pelas APIs (Application Programming Interface) ou drivers do SGBD, que executam comandos na linguagem SQL (Structured Query Language)
+
 A linguagem SQL é dividida em 4 tipos de intruções de linguagem. DML(DATA MANIPULATION LANGUAGE), DDL(DATA DEFINITION LANGUAGE), DCL(DATA CONTROL LANGAGE) e TLC(TRANSATION CONTROL LANGUAGE).
 
 COMANDOS DML: São utilizados para o gerenciamento de dados dentro de objetos do banco.
