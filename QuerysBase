@@ -1569,3 +1569,41 @@ ROLLBACK
 --EFETIVA AS INFORMAÇOES NA TABELA
 COMMIT TRANSACTION
 
+
+-- TRIGGERS --
+
+OBS: Exemplos de Triggers para serem usados futuramente. 
+
+
+DELIMITER $$
+CREATE TRIGGER onINSERTanmt_associados
+AFTER UPDATE ON anmt_associados
+	FOR EACH ROW 
+	BEGIN
+		IF ((SELECT `state` FROM anmt_restful_external_senders WHERE `table` = 'anmt_associados') = 1) THEN
+			INSERT INTO anmt_restful_extsender_logs (resource, id_resource_element, change_time, method, request_sent)
+				VALUES ('anmt_associados', NEW.id, NOW(), 'INSERT', 0);
+		END IF;
+    END $$
+
+DELIMITER $$
+CREATE TRIGGER onUPDATEanmt_associados
+AFTER UPDATE ON anmt_associados
+	FOR EACH ROW 
+	BEGIN
+		IF ((SELECT `state` FROM anmt_restful_external_senders WHERE `table` = 'anmt_associados') = 1) THEN
+			INSERT INTO anmt_restful_extsender_logs (resource, id_resource_element, change_time, method, request_sent)
+				VALUES ('anmt_associados', NEW.id, NOW(), 'UPDATE', 0);
+		END IF;
+    END $$
+    
+DELIMITER $$
+CREATE TRIGGER onUPDATEanmt_associados
+AFTER UPDATE ON anmt_associados
+	FOR EACH ROW 
+	BEGIN
+		IF ((SELECT `state` FROM anmt_restful_external_senders WHERE `table` = 'anmt_associados') = 1) THEN
+			INSERT INTO anmt_restful_extsender_logs (resource, id_resource_element, change_time, method, request_sent)
+				VALUES ('anmt_associados', OLD.id, NOW(), 'DELETE', 0);
+		END IF;
+    END $$
