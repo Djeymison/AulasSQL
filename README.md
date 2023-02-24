@@ -74,5 +74,6 @@ Expressão Case https://learn.microsoft.com/pt-br/sql/t-sql/language-elements/ca
 
 Expessão NULLIF https://learn.microsoft.com/pt-br/sql/t-sql/language-elements/nullif-transact-sql?redirectedfrom=MSDN&view=sql-server-ver16 */
 
+Material informativo conta GIT: https://github.com/brunocampos01/banco-de-dados
 
 
